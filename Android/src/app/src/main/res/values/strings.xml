@@ -18,218 +18,228 @@
 <string name="all" translatable="false">All</string>
 <string name="add" translatable="false">Add</string>
 <string name="added" translatable="false">Added</string>
-<string name="add_audio" translatable="false">+Áudio</string>
-<string name="aicore_access_panel_title" translatable="false">Ainda não tens acesso a este modelo. Segue os passos e volta quando estiver pronto.</string>
-<string name="aicore_access_panel_button" translatable="false">Abrir guia</string>
-<string name="aicore_image_limit_message" translatable="false">O modelo atual suporta apenas 1 imagem por conversa. Para analisar outra imagem, cria uma nova conversa.</string>
+<string name="add_audio" translatable="false">+Audio</string>
+<string name="aicore_access_panel_title" translatable="false">You cannot access this model yet. Please follow the steps and return when complete.</string>
+<string name="aicore_access_panel_button" translatable="false">Open guide</string>
+<string name="aicore_image_limit_message" translatable="false">The current model can only support 1 image per chat. To ask about another image, create a new chat.</string>
 <string name="aichat_initializing_title" translatable="false">A inicializar Auriel</string>
 <string name="aichat_initializing_content" translatable="false">Um momento, pode demorar até 1 minuto</string>
 <string name="app_intro" translatable="false">O teu assistente IA local, offline e privado — powered by</string>
 <string name="app_name" translatable="false">Auriel AI</string>
 <string name="app_name_first_part" translatable="false">Auriel</string>
 <string name="app_name_second_part" translatable="false">AI</string>
-<string name="askimage_emptystate_title" translatable="false">Analisar Imagem</string>
-<string name="askimage_emptystate_content" translatable="false">Toca em + para adicionar uma imagem (máx. 10 por conversa) e faz uma pergunta sobre ela!</string>
-<string name="askimage_emptystate_content_aicore" translatable="false">Toca em + para adicionar uma imagem (máx. 1 por conversa) e faz uma pergunta sobre ela!</string>
-<string name="askaudio_emptystate_title" translatable="false">Transcrever Áudio</string>
-<string name="askaudio_emptystate_content" translatable="false">Toca em + para adicionar um clip de áudio (máx. 30 segundos) e pede ao Auriel para transcrever ou traduzir!</string>
+<string name="askimage_emptystate_title" translatable="false">Ask Image</string>
+<string name="askimage_emptystate_content" translatable="false">To get started, tap the + below to add an image (max 10 images per chat) and type a prompt to ask a question about it!</string>
+<string name="askimage_emptystate_content_aicore" translatable="false">To get started, tap the + below to add an image (max 1 image per chat) and type a prompt to ask a question about it!</string>
+<string name="askaudio_emptystate_title" translatable="false">Ask Audio</string>
+<string name="askaudio_emptystate_content" translatable="false">To get started, tap the + below to add a audio clip (limited to 1 clip up to 30 seconds) and type a prompt to transcribe or translate it!</string>
 <string name="gallery_news_notification_title" translatable="false">Auriel AI — Novidades</string>
 <string name="baseline" translatable="false">Baseline</string>
-<string name="basic_info" translatable="false">Informação básica</string>
+<string name="basic_info" translatable="false">Basic info</string>
 <string name="benchmark" translatable="false">Benchmark</string>
-<string name="benchmark_comparison_help_title" translatable="false">Como comparar benchmarks</string>
-<string name="benchmark_comparison_help_content" translatable="false">Compara benchmarks tocando em **Baseline** em qualquer resultado para definir a comparação. As diferenças percentuais aparecem automaticamente nos outros resultados.</string>
-<string name="benchmark_model" translatable="false">Testar modelo</string>
-<string name="benchmark_results" translatable="false">Resultados do benchmark</string>
-<string name="benchmark_no_results" translatable="false">Sem resultados</string>
-<string name="benchmark_tokens_limit_message" translatable="false">A soma dos tokens de prefill e decode deve ser inferior ao limite do modelo (%d vs %d)</string>
-<string name="best_overall" translatable="false">Melhor geral</string>
+<string name="benchmark_comparison_help_title" translatable="false">How to compare benchmark runs</string>
+<string name="benchmark_comparison_help_content" translatable="false">Compare benchmark runs by tapping the **Baseline** chip on any run result card to set the run as the comparison baseline. We\'ll automatically calculate and display the percentage differences in **all other** run result cards.</string>
+<string name="benchmark_model" translatable="false">Benchmark model</string>
+<string name="benchmark_results" translatable="false">Benchmark results</string>
+<string name="benchmark_no_results" translatable="false">No benchmark results</string>
+<string name="benchmark_tokens_limit_message" translatable="false">Ensure that the sum of prefill and decode tokens remains under the model\'s maximum token limit (%d vs %d)</string>
+<string name="best_overall" translatable="false">Best overall</string>
 <string name="model_list_experimental_label" translatable="false">EXPERIMENTAL</string>
-<string name="cancel" translatable="false">Cancelar</string>
-<string name="category_unlabeled" translatable="false">Sem categoria</string>
+<string name="cancel" translatable="false">Cancel</string>
+<string name="category_unlabeled" translatable="false">Unlabeled</string>
 <string name="category_llm" translatable="false">LLM</string>
-<string name="category_agents" translatable="false">Agentes</string>
-<string name="category_classical_ml" translatable="false">ML Clássico</string>
+<string name="category_agents" translatable="false">Agents</string>
+<string name="category_classical_ml" translatable="false">Classical ML</string>
 <string name="category_experimental" translatable="false">Experimental</string>
 <string name="chat_textinput_placeholder" translatable="false">Escreve uma mensagem…</string>
 <string name="chat_you" translatable="false">Tu</string>
 <string name="chat_llm_agent_name" translatable="false">Auriel</string>
-<string name="show_thinking" translatable="false">Mostrar raciocínio</string>
-<string name="checking_access" translatable="false">A verificar acesso...</string>
-<string name="close" translatable="false">Fechar</string>
-<string name="collapse_all" translatable="false">Recolher tudo</string>
-<string name="discard" translatable="false">Descartar</string>
-<string name="discard_changes_dialog_title" translatable="false">Descartar alterações?</string>
-<string name="discard_changes_dialog_content" translatable="false">Tens alterações não guardadas. Queres mesmo descartá-las?</string>
-<string name="delete_benchmark_result_dialog_title" translatable="false">Eliminar resultado</string>
-<string name="delete_benchmark_result_dialog_content" translatable="false">Tens a certeza que queres eliminar este resultado de benchmark?</string>
-<string name="error" translatable="false">Erro</string>
-<string name="confirm_delete_model_dialog_title" translatable="false">Eliminar download</string>
-<string name="confirm_delete_model_dialog_content" translatable="false">Tens a certeza que queres eliminar o modelo \"%s\"?</string>
-<string name="conversation_reset_message" translatable="false">Conversa reiniciada</string>
-<string name="engin_reset_message" translatable="false">Motor reiniciado</string>
+<string name="show_thinking" translatable="false">Show thinking</string>
+<string name="checking_access" translatable="false">Checking access...</string>
+<string name="close" translatable="false">Close</string>
+<string name="collapse_all" translatable="false">Collapse all</string>
+<string name="discard" translatable="false">Discard</string>
+<string name="discard_changes_dialog_title" translatable="false">Discard changes?</string>
+<string name="discard_changes_dialog_content" translatable="false">You have unsaved changes. Are you sure you want to discard them?</string>
+<string name="delete_benchmark_result_dialog_title" translatable="false">Delete benchmark result</string>
+<string name="delete_benchmark_result_dialog_content" translatable="false">Are you sure you want to delete the benchmark result?</string>
+<string name="error" translatable="false">Error</string>
+<string name="confirm_delete_model_dialog_title" translatable="false">Delete download</string>
+<string name="confirm_delete_model_dialog_content" translatable="false">Are you sure you want to delete the downloaded model \"%s\"?</string>
+<string name="conversation_reset_message" translatable="false">Conversation was reset</string>
+<string name="engin_reset_message" translatable="false">Engine was reset</string>
 <string name="chat_agent_agent_name" translatable="false">Auriel</string>
 <string name="chat_generic_agent_name" translatable="false">Auriel</string>
-<string name="chat_generic_result_name" translatable="false">Resultado</string>
-<string name="clear" translatable="false">Limpar</string>
-<string name="collect" translatable="false">Recolher</string>
-<string name="color" translatable="false">Cor</string>
-<string name="config_dialog_tab_model_configs" translatable="false">Configurações do modelo</string>
-<string name="config_dialog_tab_system_prompt" translatable="false">Prompt do sistema</string>
-<string name="continue_button_label" translatable="false">Continuar</string>
-<string name="conversation_history" translatable="false">Histórico de conversas</string>
-<string name="copy" translatable="false">Copiar</string>
-<string name="create" translatable="false">Criar</string>
-<string name="delete" translatable="false">Eliminar</string>
-<string name="description_required" translatable="false">Descrição*</string>
-<string name="disabled" translatable="false">Desativado</string>
-<string name="dismiss" translatable="false">Dispensar</string>
-<string name="done" translatable="false">Concluído</string>
-<string name="download" translatable="false">Descarregar</string>
-<string name="downloaded_size" translatable="false">%1$s descarregado</string>
-<string name="drawer_settings_label" translatable="false">Definições</string>
-<string name="drawer_settings_description" translatable="false">Gerir definições da aplicação</string>
-<string name="drawer_models_label" translatable="false">Modelos</string>
-<string name="drawer_models_description" translatable="false">Explorar, testar e fazer benchmark de modelos</string>
-<string name="edit" translatable="false">Editar</string>
-<string name="edit_secret" translatable="false">Editar segredo</string>
-<string name="enter_instruction" translatable="false">Introduzir instrução</string>
-<string name="expand_all" translatable="false">Expandir tudo</string>
-<string name="failed_to_save" translatable="false">Erro ao guardar</string>
-<string name="flashlight_off_message" translatable="false">Lanterna desligada.</string>
-<string name="flashlight_on_message" translatable="false">Lanterna ligada.</string>
-<string name="function_name" translatable="false">Nome da função</string>
-<string name="generate_and_copy" translatable="false">Gerar e copiar</string>
-<string name="grant_permissions" translatable="false">Conceder permissões</string>
-<string name="grant_record_audio_permission" translatable="false">Conceder permissão de microfone</string>
-<string name="hold_down_to_talk" translatable="false">Mantém premido para falar</string>
-<string name="input_history" translatable="false">Histórico de entradas</string>
-<string name="instructions" translatable="false">Instruções</string>
-<string name="introducing" translatable="false">Apresentando</string>
-<string name="invalid_response" translatable="false">Resposta inválida</string>
-<string name="learn_more" translatable="false">Saber mais e ver licença do modelo</string>
-<string name="listening" translatable="false">A ouvir...</string>
+<string name="chat_generic_result_name" translatable="false">Result</string>
+<string name="clear" translatable="false">Clear</string>
+<string name="collect" translatable="false">Collect</string>
+<string name="color" translatable="false">Color</string>
+<string name="config_dialog_tab_model_configs" translatable="false">Model configs</string>
+<string name="config_dialog_tab_system_prompt" translatable="false">System prompt</string>
+<string name="continue_button_label" translatable="false">Continue</string>
+<string name="conversation_history" translatable="false">Conversation History</string>
+<string name="copy" translatable="false">Copy</string>
+<string name="create" translatable="false">Create</string>
+<string name="delete" translatable="false">Delete</string>
+<string name="description_required" translatable="false">Description*</string>
+<string name="disabled" translatable="false">Disabled</string>
+<string name="dismiss" translatable="false">Dismiss</string>
+<string name="done" translatable="false">Done</string>
+<string name="download" translatable="false">Download</string>
+<string name="downloaded_size" translatable="false">%1$s downloaded</string>
+<string name="drawer_settings_label" translatable="false">Settings</string>
+<string name="drawer_settings_description" translatable="false">Manage application settings</string>
+<string name="drawer_models_label" translatable="false">Models</string>
+<string name="drawer_models_description" translatable="false">Browse, try, and benchmark models</string>
+<string name="edit" translatable="false">Edit</string>
+<string name="edit_secret" translatable="false">Edit secret</string>
+<string name="enter_instruction" translatable="false">Enter instruction</string>
+<string name="expand_all" translatable="false">Expand all</string>
+<string name="failed_to_save" translatable="false">Failed to save</string>
+<string name="flashlight_off_message" translatable="false">I\'ve turned off the flashlight.</string>
+<string name="flashlight_on_message" translatable="false">I\'ve turned on the flashlight.</string>
+<string name="function_name" translatable="false">Function name</string>
+<string name="generate_and_copy" translatable="false">Generate and copy</string>
+<string name="grant_permissions" translatable="false">Grant permissions</string>
+<string name="grant_record_audio_permission" translatable="false">Grant record audio permission</string>
+<string name="hold_down_to_talk" translatable="false">Hold to talk</string>
+<string name="input_history" translatable="false">Input history</string>
+<string name="instructions" translatable="false">Instructions</string>
+<string name="introducing" translatable="false">Introducing</string>
+<string name="invalid_response" translatable="false">Invalid response</string>
+<string name="learn_more" translatable="false">Learn more and see model license</string>
+<string name="listening" translatable="false">Listening...</string>
 <string name="litert_community_label" translatable="false">Presentiluminado LDA</string>
-<string name="loading_model_list" translatable="false">A carregar modelos...</string>
-<string name="logs_viewer_filter_text_input_placeholder" translatable="false">Filtrar logs</string>
-<string name="logs_viewer_title" translatable="false">Visualizador de logs</string>
-<string name="logs_viewer_no_matching_logs" translatable="false">Nenhum log corresponde ao filtro</string>
-<string name="memory_warning_content" translatable="false">O modelo selecionado pode exceder a memória do dispositivo, o que pode causar instabilidade. Recomendamos um modelo mais pequeno.</string>
-<string name="memory_warning_proceed_anyway" translatable="false">Continuar mesmo assim</string>
-<string name="memory_warning_title" translatable="false">Aviso de memória</string>
-<string name="max_tokens_warning_message" translatable="false">Definir max tokens acima de 10000 pode tornar a app instável.</string>
-<string name="model_is_initializing_msg" translatable="false">A inicializar modelo…</string>
-<string name="model_list_imported_models_title" translatable="false">Modelos importados</string>
+<string name="loading_model_list" translatable="false">Loading model list...</string>
+<string name="logs_viewer_filter_text_input_placeholder" translatable="false">Filter logs</string>
+<string name="logs_viewer_title" translatable="false">Logs viewer</string>
+<string name="logs_viewer_no_matching_logs" translatable="false">No logs match the filter</string>
+<string name="memory_warning_content" translatable="false">The model you\'ve selected may exceed your device\'s memory, which can cause the app to crash. For the best experience, we recommend trying a smaller model.</string>
+<string name="memory_warning_proceed_anyway" translatable="false">Proceed anyway</string>
+<string name="memory_warning_title" translatable="false">Memory Warning</string>
+<string name="max_tokens_warning_message" translatable="false">Setting max tokens above 10000 may cause app to be unstable.</string>
+<string name="model_is_initializing_msg" translatable="false">Initializing model…</string>
+<string name="model_list_imported_models_title" translatable="false">Imported models</string>
 <plurals name="model_list_number_of_models_available" translatable="false">
-<item quantity="one">%d modelo disponível</item>
-<item quantity="other">%d modelos disponíveis</item>
+<item quantity="one">%d model available</item>
+<item quantity="other">%d models available</item>
 </plurals>
-<string name="model_list_recommended_models_title" translatable="false">Modelos recomendados</string>
-<string name="model_manager" translatable="false">Gestor de Modelos</string>
-<string name="model_manager_select_task_title" translatable="false">Escolhe uma função para experimentar</string>
-<string name="model_not_downloaded_msg" translatable="false">Modelo ainda não descarregado</string>
-<string name="name" translatable="false">Nome</string>
-<string name="no_cutouts_collected" translatable="false">Nenhum recorte recolhido</string>
-<string name="notification_content_fail" translatable="false">Falha ao descarregar o modelo "%s"</string>
-<string name="notification_content_success" translatable="false">Modelo "%s" descarregado com sucesso</string>
-<string name="notification_title_fail" translatable="false">Falha no download do modelo</string>
-<string name="notification_title_success" translatable="false">Modelo descarregado com sucesso</string>
+<string name="model_list_recommended_models_title" translatable="false">Recommended models</string>
+<string name="model_manager" translatable="false">Model Manager</string>
+<string name="model_manager_select_task_title" translatable="false">Select a use case to try</string>
+<string name="model_not_downloaded_msg" translatable="false">Model not downloaded yet</string>
+<string name="name" translatable="false">Name</string>
+<string name="no_cutouts_collected" translatable="false">No cutouts collected</string>
+<string name="notification_content_fail" translatable="false">Failed to download model "%s"</string>
+<string name="notification_content_success" translatable="false">Model "%s" has been downloaded</string>
+<string name="notification_title_fail" translatable="false">Model download failed</string>
+<string name="notification_title_success" translatable="false">Model download succeeded</string>
 <string name="ok" translatable="false">OK</string>
-<string name="paste_from_clipboard" translatable="false">Colar da área de transferência</string>
-<string name="pick_from_album" translatable="false">Escolher da galeria</string>
-<string name="preview" translatable="false">Pré-visualizar</string>
-<string name="release_to_send" translatable="false">Soltar para enviar</string>
-<string name="replace" translatable="false">Substituir</string>
-<string name="results" translatable="false">Resultados</string>
-<string name="reset" translatable="false">Reiniciar</string>
-<string name="reset_note" translatable="false">Tocar em \"Reiniciar\" apenas reinicia o motor LiteRT-LM. O progresso do jogo não será afetado.</string>
-<string name="resetting_engine" translatable="false">A reiniciar motor...</string>
-<string name="restore_default" translatable="false">Restaurar padrão</string>
-<string name="reinitializing_description" translatable="false">O progresso do jogo não será afetado</string>
-<string name="run" translatable="false">Executar</string>
-<string name="running" translatable="false">A executar...</string>
+<string name="paste_from_clipboard" translatable="false">Paste from clipboard</string>
+<string name="pick_from_album" translatable="false">Pick from album</string>
+<string name="preview" translatable="false">Preview</string>
+<string name="release_to_send" translatable="false">Release to send</string>
+<string name="replace" translatable="false">Replace</string>
+<string name="results" translatable="false">Results</string>
+<string name="reset" translatable="false">Reset</string>
+<string name="reset_note" translatable="false">Tapping \"Reset\" will reset LiteRT-LM engine only. The game progress won\'t be affected.</string>
+<string name="resetting_engine" translatable="false">Resetting engine...</string>
+<string name="restore_default" translatable="false">Restore default</string>
+<string name="reinitializing_description" translatable="false">The game progress won\'t be affected</string>
+<string name="run" translatable="false">Run</string>
+<string name="running" translatable="false">Running...</string>
 <plurals name="runs" translatable="false">
-<item quantity="one">%d execução</item>
-<item quantity="other">%d execuções</item>
+<item quantity="one">%d run</item>
+<item quantity="other">%d runs</item>
 </plurals>
-<string name="run_again" translatable="false">Executar novamente</string>
-<string name="run_benchmark" translatable="false">Executar benchmark</string>
-<string name="run_benchmark_confirmation_msg" translatable="false">Este processo demora vários minutos e não pode ser interrompido. Queres continuar?</string>
-<string name="running_benchmark_msg" translatable="false">A executar benchmark do modelo...</string>
-<string name="save" translatable="false">Guardar</string>
-<string name="secret" translatable="false">Segredo</string>
-<string name="select_downloaded_model" translatable="false">Selecionar modelo descarregado</string>
-<string name="select_model" translatable="false">Selecionar modelo</string>
-<string name="selected_count" translatable="false">%d selecionado(s)</string>
-<string name="settings_dialog_tos_title" translatable="false">Termos de serviço</string>
-<string name="settings_dialog_view_app_terms_of_service" translatable="false">Ver Termos de Serviço</string>
-<string name="settings_dialog_gemma_prohibited_use_policy" translatable="false">Política de Uso Proibido do Gemma</string>
-<string name="share" translatable="false">Partilhar</string>
-<string name="slide_up_to_cancel" translatable="false">Desliza para cima para cancelar</string>
-<string name="system_prompt_updated" translatable="false">Prompt do sistema atualizado</string>
-<string name="take_a_picture" translatable="false">Tirar fotografia</string>
-<string name="tap_to_change_color" translatable="false">Toca para mudar a cor</string>
-<string name="tap_to_see_value" translatable="false">Toca no gráfico para ver o valor</string>
-<string name="test" translatable="false">Testar</string>
-<string name="text_image_generation_text_field_placeholder" translatable="false">Escreve o prompt…</string>
-<string name="text_input_placeholder_llm_chat" translatable="false">Escreve o prompt…</string>
+<string name="run_again" translatable="false">Run again</string>
+<string name="run_benchmark" translatable="false">Run benchmark</string>
+<string name="run_benchmark_confirmation_msg" translatable="false">This process typically takes several minutes and cannot be interrupted once started. Would you like to proceed?</string>
+<string name="running_benchmark_msg" translatable="false">Running model benchmark...</string>
+<string name="save" translatable="false">Save</string>
+<string name="secret" translatable="false">Secret</string>
+<string name="select_downloaded_model" translatable="false">Select a downloaded model</string>
+<string name="select_model" translatable="false">Select a model</string>
+<string name="selected_count" translatable="false">%d selected</string>
+<string name="settings_dialog_tos_title" translatable="false">Terms of service</string>
+<string name="settings_dialog_view_app_terms_of_service" translatable="false">View App Terms of Service</string>
+<string name="settings_dialog_gemma_prohibited_use_policy" translatable="false">Gemma Prohibited Use Policy</string>
+<string name="share" translatable="false">Share</string>
+<string name="slide_up_to_cancel" translatable="false">Slide up to cancel</string>
+<string name="system_prompt_updated" translatable="false">System prompt updated</string>
+<string name="take_a_picture" translatable="false">Take a picture</string>
+<string name="tap_to_change_color" translatable="false">Tap to change color</string>
+<string name="tap_to_see_value" translatable="false">Tap on graph to see value</string>
+<string name="test" translatable="false">Test</string>
+<string name="text_image_generation_text_field_placeholder" translatable="false">Type prompt…</string>
+<string name="text_input_placeholder_llm_chat" translatable="false">Type prompt…</string>
 <string name="tos_dialog_title_app" translatable="false">Bem-vindo ao Auriel AI</string>
-<string name="tos_dialog_title_gemma" translatable="false">Termos de Uso do Gemma</string>
-<string name="tos_dialog_accept_and_continue_button_label" translatable="false">Aceitar e continuar</string>
-<string name="tos_dialog_agree_and_continue_button_label" translatable="false">Concordar e continuar</string>
-<string name="try_it" translatable="false">Experimentar</string>
-<string name="turn_on_all" translatable="false">Ativar tudo</string>
-<string name="turn_off_all" translatable="false">Desativar tudo</string>
-<string name="undo" translatable="false">Desfazer</string>
-<string name="unsupported_action" translatable="false">Ação não suportada</string>
-<string name="set_screen_brightness_message" translatable="false">Brilho do ecrã definido para %1$d%%.</string>
-<string name="set_timer_message" translatable="false">A definir o temporizador para %1$d segundos.</string>
-<string name="add_calendar_event_message" translatable="false">A adicionar \"Reunião de equipa (10h-11h)\" ao calendário.</string>
-<string name="take_picture_message" translatable="false">A abrir a câmara.</string>
-<string name="mobile_actions_title" translatable="false">Ações do Dispositivo</string>
-<string name="mobile_actions_description" translatable="false">Controla o teu dispositivo com comandos simples</string>
-<string name="mobile_actions_supported_actions" translatable="false">Ações de exemplo suportadas:</string>
-<string name="mobile_actions_tab_model_response" translatable="false">Resposta do modelo</string>
-<string name="mobile_actions_tab_function_called" translatable="false">Função(ões) chamada(s)</string>
-<string name="view_results" translatable="false">Ver resultados</string>
-<string name="view_console_logs" translatable="false">Ver logs da consola</string>
-<string name="warming_up" translatable="false">a aquecer…</string>
-<string name="warning_no_function_call" translatable="false">Nenhuma função reconhecida</string>
-<string name="snackbar_no_function_call" translatable="false">Nenhuma função reconhecida</string>
-<string name="unknown_error" translatable="false">Erro desconhecido</string>
-<string name="view" translatable="false">Ver</string>
-<string name="view_in_full_screen" translatable="false">Ver em ecrã inteiro</string>
+<string name="tos_dialog_title_gemma" translatable="false">Gemma Terms of Use</string>
+<string name="tos_dialog_accept_and_continue_button_label" translatable="false">Accept & continue</string>
+<string name="tos_dialog_agree_and_continue_button_label" translatable="false">Agree & continue</string>
+<string name="try_it" translatable="false">Try it</string>
+<string name="turn_on_all" translatable="false">Turn on all</string>
+<string name="turn_off_all" translatable="false">Turn off all</string>
+<string name="undo" translatable="false">Undo</string>
+<string name="unsupported_action" translatable="false">Unsupported action</string>
+<string name="set_screen_brightness_message" translatable="false">I\'ve set the screen brightness to %1$d%%.</string>
+<string name="set_timer_message" translatable="false">Setting the timer for %1$d seconds.</string>
+<string name="add_calendar_event_message" translatable="false">Adding \"Team meeting (10AM-11AM)\" to your calendar.</string>
+<string name="take_picture_message" translatable="false">Opening the camera app.</string>
+<string name="mobile_actions_title" translatable="false">Mobile Actions</string>
+<string name="mobile_actions_description" translatable="false">Control your device with simple commands</string>
+<string name="mobile_actions_supported_actions" translatable="false">Supported sample actions:</string>
+<string name="mobile_actions_tab_model_response" translatable="false">Model response</string>
+<string name="mobile_actions_tab_function_called" translatable="false">Function(s) called</string>
+<string name="view_results" translatable="false">View results</string>
+<string name="view_console_logs" translatable="false">View console logs</string>
+<string name="warming_up" translatable="false">warming up…</string>
+<string name="warning_no_function_call" translatable="false">No function recognized</string>
+<string name="snackbar_no_function_call" translatable="false">No function recognized</string>
+<string name="unknown_error" translatable="false">Unknown error</string>
+<string name="view" translatable="false">View</string>
+<string name="view_in_full_screen" translatable="false">View in full screen</string>
 <plurals name="parameter" translatable="false">
-<item quantity="one">Parâmetro</item>
-<item quantity="other">Parâmetros</item>
+<item quantity="one">Parameter</item>
+<item quantity="other">Parameters</item>
 </plurals>
-<string name="prompt_template_label_flash_on_off" translatable="false">Ligar/desligar lanterna</string>
-<string name="prompt_template_label_flash_on" translatable="false">Lanterna ligada</string>
-<string name="prompt_template_label_flash_off" translatable="false">Lanterna desligada</string>
-<string name="prompt_template_label_create_contact" translatable="false">Criar contacto</string>
-<string name="prompt_template_label_send_email" translatable="false">Enviar email</string>
-<string name="prompt_template_label_create_calendar_event" translatable="false">Criar evento no calendário</string>
-<string name="prompt_template_label_show_location_on_map" translatable="false">Mostrar localização no mapa</string>
-<string name="prompt_template_label_open_wifi_settings" translatable="false">Abrir definições Wi-Fi</string>
+<string name="prompt_template_label_flash_on_off" translatable="false">Turn flashlight on/off</string>
+<string name="prompt_template_label_flash_on" translatable="false">Flashlight on</string>
+<string name="prompt_template_label_flash_off" translatable="false">Flashlight off</string>
+<string name="prompt_template_label_create_contact" translatable="false">Create contact</string>
+<string name="prompt_template_label_send_email" translatable="false">Send email</string>
+<string name="prompt_template_label_create_calendar_event" translatable="false">Create calendar event</string>
+<string name="prompt_template_label_show_location_on_map" translatable="false">Show location on map</string>
+<string name="prompt_template_label_open_wifi_settings" translatable="false">Open WIFI settings</string>
 <!--  Strings for MobileActionsChallengeDialog  -->
-<string name="mobile_actions_challenge_title" translatable="false">Desafio Mobile Actions</string>
-<string name="mobile_actions_challenge_subtitle" translatable="false">Compila para desbloquear!</string>
-<string name="mobile_actions_challenge_description" translatable="false">Esta demo está bloqueada. Para desbloquear o agente Mobile Actions, tens de compilar o modelo usando o nosso guia open-source.</string>
-<string name="mobile_actions_challenge_instructions_title" translatable="false">Instruções:</string>
-<string name="mobile_actions_challenge_instruction_1" translatable="false">1. <![CDATA[<b>No teu computador</b>]]>, abre <![CDATA[<a href="https://ai.google.dev/gemma/docs/mobile-actions">este guia</a>]]></string>
-<string name="mobile_actions_challenge_instruction_2" translatable="false">2. Segue as instruções para fazer fine-tune do modelo e converter para formato .litertlm.</string>
-<string name="mobile_actions_challenge_instruction_3" translatable="false">3. Transfere o ficheiro para este telemóvel.</string>
-<string name="mobile_actions_challenge_instruction_4" translatable="false">4. Toca em <![CDATA[<b>Carregar Modelo</b>]]> abaixo para desbloquear.</string>
-<string name="mobile_actions_challenge_email_colab" translatable="false">Enviar guia por email</string>
-<string name="mobile_actions_challenge_load_model" translatable="false">Carregar Modelo</string>
+<string name="mobile_actions_challenge_title" translatable="false">Mobile Actions Finetune Challenge</string>
+<string name="mobile_actions_challenge_subtitle" translatable="false">Build it to play it!</string>
+<string name="mobile_actions_challenge_description" translatable="false">This demo is locked. To unlock the Mobile Actions agent, you need to compile the model yourself using our open-source recipe.</string>
+<string name="mobile_actions_challenge_instructions_title" translatable="false">Instructions:</string>
+<string name="mobile_actions_challenge_instruction_1" translatable="false">
+1.
+<![CDATA[ <b>On your computer</b> ]]>
+, open
+<![CDATA[ <a href="https://ai.google.dev/gemma/docs/mobile-actions">this guide</a> ]]>
+</string>
+<string name="mobile_actions_challenge_instruction_2" translatable="false">2. Follow the instructions to fine tune the model and convert it to .litertlm format.</string>
+<string name="mobile_actions_challenge_instruction_3" translatable="false">3. Transfer the file to this phone.</string>
+<string name="mobile_actions_challenge_instruction_4" translatable="false">
+4. Tap
+<![CDATA[ <b>Load Model</b> ]]>
+below to unlock the demo.
+</string>
+<string name="mobile_actions_challenge_email_colab" translatable="false">Email guide to myself</string>
+<string name="mobile_actions_challenge_load_model" translatable="false">Load Model</string>
 <!--  Strings for skills  -->
 <string name="aichat_emptystate_title" translatable="false">Auriel Chat</string>
 <string name="aichat_emptystate_content" translatable="false">Fala com o teu assistente IA local. Offline. Privado.</string>
-<string name="add_script" translatable="false">Adicionar script</string>
-<string name="add_default_script" translatable="false">Adicionar script padrão</string>
-<string name="add_skill" translatable="false">Adicionar skill</string>
-<string name="add_skill_option_featured_list_title" translatable="false">Adicionar skill da lista</string>
-<string name="add_skill_option_featured_list_description" translatable="false">Adiciona uma skill da lista de skills da comunidade</string>
-<string name="add_skill_option_url_title" translatable="false">Carregar skill por URL</string>
-<string name="cd_error" translatable="false">Erro ao carregar modelo</string>
-</resources>
+<string name="add_script" translatable="false">Add script</string>
+<string name="add_default_script" translatable="false">Add default script</string>
+<string name="add_skill" translatable="false">Add skill</string>
+<string name="add_skill_option_featured_list_title" translatable="false">Add skill from featured list</string>
+<string name="add_skill_option_featured_list_description" translatable="false">Add a skill from a curated list of community contributed skills</string>
+<string name="add_skill_option_url_title" translatable="false">Load skill from URL</string>
+<string name="add_skill_option_url_description" translatable="false">Load a skill directly from a URL</string>
+<string name="add_skill_option_local_title" translatable="false">Load skill from local file</string>
+<string name="add_skill_option_local_description" translatable="false">Load a skill from a
