@@ -216,19 +216,10 @@
 <string name="mobile_actions_challenge_subtitle" translatable="false">Compila para desbloquear!</string>
 <string name="mobile_actions_challenge_description" translatable="false">Esta demo está bloqueada. Para desbloquear o agente Mobile Actions, tens de compilar o modelo usando o nosso guia open-source.</string>
 <string name="mobile_actions_challenge_instructions_title" translatable="false">Instruções:</string>
-<string name="mobile_actions_challenge_instruction_1" translatable="false">
-1.
-<![CDATA[ <b>No teu computador</b> ]]>
-, abre
-<![CDATA[ <a href="https://ai.google.dev/gemma/docs/mobile-actions">este guia</a> ]]>
-</string>
+<string name="mobile_actions_challenge_instruction_1" translatable="false">1. <![CDATA[<b>No teu computador</b>]]>, abre <![CDATA[<a href="https://ai.google.dev/gemma/docs/mobile-actions">este guia</a>]]></string>
 <string name="mobile_actions_challenge_instruction_2" translatable="false">2. Segue as instruções para fazer fine-tune do modelo e converter para formato .litertlm.</string>
 <string name="mobile_actions_challenge_instruction_3" translatable="false">3. Transfere o ficheiro para este telemóvel.</string>
-<string name="mobile_actions_challenge_instruction_4" translatable="false">
-4. Toca em
-<![CDATA[ <b>Carregar Modelo</b> ]]>
-abaixo para desbloquear.
-</string>
+<string name="mobile_actions_challenge_instruction_4" translatable="false">4. Toca em <![CDATA[<b>Carregar Modelo</b>]]> abaixo para desbloquear.</string>
 <string name="mobile_actions_challenge_email_colab" translatable="false">Enviar guia por email</string>
 <string name="mobile_actions_challenge_load_model" translatable="false">Carregar Modelo</string>
 <!--  Strings for skills  -->
@@ -240,4 +231,5 @@ abaixo para desbloquear.
 <string name="add_skill_option_featured_list_title" translatable="false">Adicionar skill da lista</string>
 <string name="add_skill_option_featured_list_description" translatable="false">Adiciona uma skill da lista de skills da comunidade</string>
 <string name="add_skill_option_url_title" translatable="false">Carregar skill por URL</string>
+<string name="cd_error" translatable="false">Erro ao carregar modelo</string>
 </resources>
